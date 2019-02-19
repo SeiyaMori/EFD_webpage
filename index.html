@@ -17,26 +17,19 @@
 		  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
 		  animation-name: su_animation;
 		  animation-duration: 4s;
+		  animation-iteration-count: infinite;
 		}
 
 		/* Safari 4.0 - 8.0 */
 		@-webkit-keyframes su_animation {
-		  0%   {font-weight: lighter;}
-		  60%  {font-weight: normal;}
-		  70%  {font-weight: bold;}
-		  80% {font-weight: bolder;}
-		  90% {font-weight: bold;}
-		  100% {font-weight: normal;}
+		  	from {font-weight: lighter;}
+  			to {fonr-weight: bolder;}
 		}
 
 		/* Standard syntax */
 		@keyframes su_animation {
-		  0%   {font-weight: lighter;}
-		  60%  {font-weight: normal;}
-		  70%  {font-weight: bold;}
-		  80% {font-weight: bolder;}
-		  90% {font-weight: bold;}
-		  100% {font-weight: normal;}
+		  	from {font-weight: lighter;}
+  			to {fonr-weight: bolder;}
 		}
 	</style>
 	  
